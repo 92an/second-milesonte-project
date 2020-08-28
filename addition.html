@@ -19,25 +19,53 @@
         </a>
     </div>
 </header>
-<section id="menu">
-    .<div class="container menuContainer">
+<section id="additionGame">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-12 addition uppercase text-center">
-                <a href="addition.html"><p>addition</p></a>
+            <div class="col text-center">
+                <h2 class="levelDescription uppercase">Level 1: Addition</h2>
             </div>
-            <div class="col-sm-12 subtraction uppercase text-center">
-                <p>subtraction</p>
+        </div>
+<!-- Progress bar to indicate which of the 10 questions you are on -->
+        <div class="row">
+            <div class="col text-center">
+                <ul class="progressBar">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                </ul>
             </div>
-            <div class="col-sm-12 multiplication uppercase text-center">
-                <p>multiplication</p>
+        </div>
+<!-- Question section of the game -->
+        <div class="row questionRow justify-content-around">
+            <div id="firstNumber" class="col-4 numberBox">
+                <p>test</p>
             </div>
-            <div class="col-sm-12 division uppercase text-center">
-                <p>division</p>
+            <div id="sign" class="col-2">
+                <p>test</p>
+            </div>
+            <div id="secondNumber" class="col-4 numberBox">
+                <p>test</p>
+            </div>
+        </div>
+<!-- input section -->
+        <div class="row inputRow">
+            <div class="col text-center">
+                <form action="post">
+                    <input type="text">
+                    <input type="button" value="Submit">
+                </form>
             </div>
         </div>
     </div>
 </section>
-
 <!-- footer section -->
 <footer>
     <div class="col-sm-12 socialMedia">

@@ -1,0 +1,128 @@
+/*************************************************** General Styles **********************************************************************/
+
+body{
+    position:relative;
+    background-color: rgba(200, 240, 243, 0.514);
+    min-height: 100vh;
+    padding-bottom: 130px;
+}
+
+.sectionHeading {
+    color:#fafafa;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/********************************************************** Style Schemes *************************************************************/
+
+.addition {
+    background-color: red;
+    color: #fafafa;
+}
+
+.subtraction {
+    background-color: blue;
+    color: #fafafa;
+}
+
+.multiplication {
+    background-color: green;
+    color: #fafafa;
+}
+
+
+.division {
+    background-color: black;
+    color: #fafafa;
+}
+
+
+/********************************************************* hero image and title section ********************************************************/
+
+@media only screen and (max-width: 600px){
+    #heroImage{
+        height: 200px;
+        width: 100%;
+        background-image: url("D:/project/Code%20institute/Second%20Milestone/second-milesonte-project/Asset/Img/heroImg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #heroImage{
+        height: 200px;
+        width: 100%;
+        background-image: url("D:/project/Code%20institute/Second%20Milestone/second-milesonte-project/Asset/Img/heroImg.jpg");
+        background-repeat: repeat;
+        background-size: 50% 100%;
+    }
+}
+
+#title {
+    display: block;
+    text-align: center;
+    background-color: rgb(132, 132, 196);
+    color: #fafafa;
+}
+
+
+
+/**************************************************************** footer section ****************************************************************/
+
+footer{
+    background-color: rgb(132, 132, 196);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.socialMedia{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.socialMedia li{
+    background-color: rgb(116, 116, 136);
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.socialMedia li:hover{
+    background-color: rgb(136, 143, 110);
+}
+
+.socialMedia i {
+    color: #fafafa;
+}
+
+/**************************************************************** Game Section ****************************************************************/
+
+
+
+.progressBar {
+    width: 100%;
+}
+
+.progressBar li {
+    list-style:none;
+    display: inline-block;
+    background-color: gray;
+    width: 50px;
+}
+
+.numberBox {
+    background-color: #fafafa;
+}
+
+.questionRow{
+    height: 300px;
+}
+
+.inputRow{
+    margin-top: 20px;
+}
