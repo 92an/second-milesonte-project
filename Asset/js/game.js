@@ -34,18 +34,19 @@ function progessBarMovement(){
 
 // initial setup when loading game for all game types
 function loadingAddition(){
-    console.log(window.location.pathname);
-    switch(window.location.pathname){
-        case https://92an.github.io/second-milesonte-project/addition.html:
-                gameAddition();
-        case https://92an.github.io/second-milesonte-project/subtraction.html:
-                gameSubtraction();
-        case https://92an.github.io/second-milesonte-project/multiplication.html:
-                gameMultiplication();
-        case https://92an.github.io/second-milesonte-project/division.html:
-                 gameDivision();
-    }
+    gameAddition();
+}
 
+function loadingSubtraction(){
+    gameSubtraction();
+}
+
+function loadingMultiplication(){
+    gameMultiplication();
+}
+
+function loadingDivision(){
+    gameDivision();
 }
 
 // The math functions are a modified version of the examples provided by developer.mozilla.org
@@ -104,7 +105,7 @@ function gameDivision(){
     $("#firstNumber p").html(Numerator);
     $("#secondNumber p").html(secondNumber);
     // set the answer of the question
-    answer = firstNumber / secondNumber;
+    answer = Numerator / secondNumber;
 }
 
 
@@ -117,6 +118,63 @@ function answerTestAddition(){
         alert("Correct Answer!");
         progessBarMovement();
         gameAddition();
+        answerInput.value = "";
+            if(level<=9){
+                level++;
+            } else{
+                alert("Congratulations you have finished all questions!")
+                mainMenu();
+            }
+    } else {
+        alert("Incorrect Answer!")
+        console.log(answer)
+        console.log(answerInput.value)
+    }
+}
+
+function answerTestSubtraction(){
+    if(Number(answerInput.value) === answer){
+        alert("Correct Answer!");
+        progessBarMovement();
+        gameSubtraction();
+        answerInput.value = "";
+            if(level<=9){
+                level++;
+            } else{
+                alert("Congratulations you have finished all questions!")
+                mainMenu();
+            }
+    } else {
+        alert("Incorrect Answer!")
+        console.log(answer)
+        console.log(answerInput.value)
+    }
+}
+
+function answerTestMultiplication(){
+    if(Number(answerInput.value) === answer){
+        alert("Correct Answer!");
+        progessBarMovement();
+        gameMultiplication();
+        answerInput.value = "";
+            if(level<=9){
+                level++;
+            } else{
+                alert("Congratulations you have finished all questions!")
+                mainMenu();
+            }
+    } else {
+        alert("Incorrect Answer!")
+        console.log(answer)
+        console.log(answerInput.value)
+    }
+}
+
+function answerTestDivision(){
+    if(Number(answerInput.value) === answer){
+        alert("Correct Answer!");
+        progessBarMovement();
+        gameDivision();
         answerInput.value = "";
             if(level<=9){
                 level++;

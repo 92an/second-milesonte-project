@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Asset/css/style.css" type="text/css">
     <title>Document</title>
 </head>
-<body onload="loadingAddition()">
+<body onload="loadingDivision()">
 <!-- header section -->
 <header>
     <div id="heroImage">
@@ -23,7 +23,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h2 class="levelDescription uppercase">Level 1: Addition</h2>
+                <h2 class="levelDescription uppercase">Level 4: Division</h2>
             </div>
         </div>
 <!-- Progress bar to indicate which of the 10 questions you are on -->
@@ -46,13 +46,13 @@
 <!-- Question section of the game -->
         <div class="row questionRow justify-content-around align-items-center text-center no-gutters">
             <div id="firstNumber" class="col-4 numberBox">
-                <p>20</p>
+                <p></p>
             </div>
             <div id="sign" class="col-2">
-                <i class="fas fa-plus-circle"></i>
+                <i class="fas fa-divide"></i>
             </div>
             <div id="secondNumber" class="col-4 numberBox">
-                <p>20</p>
+                <p></p>
             </div>
         </div>
 <!-- input section -->
@@ -60,7 +60,7 @@
             <div class="col text-center">
                 <form>
                     <input type="number" id="answerBox"> <br>
-                    <input type="button" value="Submit" id="submitAnswer" class="btn btn-primary"  onclick="answerTestAddition()">
+                    <input type="button" value="Submit" id="submitAnswer" class="btn btn-primary"  onclick="answerTestDivision()">
                 </form>
             </div>
         </div>
