@@ -78,15 +78,7 @@ body{
 
 #menu {
     min-height: 40vh;
-    margin-top:50px;
-}
-
-.menuContainer {
-    height: 45vh;
-}
-
-.menuContainer .row {
-    height: 45vh;
+    margin-top: 40px;
 }
 
 .menuContainer div {
@@ -108,7 +100,7 @@ body{
 
 .progressBar {
     width: 100%;
-    padding-inline-start: 0;
+    padding:0;
 }
 
 @media only screen and (max-width: 800px){
