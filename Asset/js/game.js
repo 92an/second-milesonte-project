@@ -21,7 +21,7 @@ answerInput.addEventListener("keyup", function(event) {
 
 // Return to main menu
 function mainMenu(){
-    location.href="index.html"
+    location.href="index.html";
 }
 
 // Progress bar function
@@ -122,13 +122,11 @@ function answerTestAddition(){
             if(level<=9){
                 level++;
             } else{
-                alert("Congratulations you have finished all questions!")
+                alert("Congratulations you have finished all questions!");
                 mainMenu();
             }
     } else {
-        alert("Incorrect Answer!")
-        console.log(answer)
-        console.log(answerInput.value)
+        alert("Incorrect Answer!");
     }
 }
 
@@ -141,13 +139,11 @@ function answerTestSubtraction(){
             if(level<=9){
                 level++;
             } else{
-                alert("Congratulations you have finished all questions!")
+                alert("Congratulations you have finished all questions!");
                 mainMenu();
             }
     } else {
-        alert("Incorrect Answer!")
-        console.log(answer)
-        console.log(answerInput.value)
+        alert("Incorrect Answer!");
     }
 }
 
@@ -160,13 +156,11 @@ function answerTestMultiplication(){
             if(level<=9){
                 level++;
             } else{
-                alert("Congratulations you have finished all questions!")
+                alert("Congratulations you have finished all questions!");
                 mainMenu();
             }
     } else {
-        alert("Incorrect Answer!")
-        console.log(answer)
-        console.log(answerInput.value)
+        alert("Incorrect Answer!");
     }
 }
 
@@ -179,13 +173,11 @@ function answerTestDivision(){
             if(level<=9){
                 level++;
             } else{
-                alert("Congratulations you have finished all questions!")
+                alert("Congratulations you have finished all questions!");
                 mainMenu();
             }
     } else {
-        alert("Incorrect Answer!")
-        console.log(answer)
-        console.log(answerInput.value)
+        alert("Incorrect Answer!");
     }
 }
 
