@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Grandstander:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /*************************************************** General Styles **********************************************************************/
 
 body{
@@ -9,6 +11,7 @@ body{
 
 .sectionHeading {
     color:#fafafa;
+    font-family: "Grandstander", sans-serif;
 }
 
 .uppercase {
@@ -17,6 +20,10 @@ body{
 
 .col-2 {
     max-width: 100%;
+}
+
+p, h1, h2 {
+    font-family: "Grandstander", sans-serif;
 }
 
 /********************************************************** Style Schemes *************************************************************/
@@ -97,6 +104,10 @@ body{
 
 
 /**************************************************************** Game Section ****************************************************************/
+
+.levelDescription {
+    margin-top:20px;
+}
 
 .progressBar {
     width: 100%;

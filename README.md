@@ -1,4 +1,43 @@
-# Deployment
+## Table of Content
+- [Deployment:](#deployment)
+- [Technologies Used:](#technologies-used)
+  - [Languages:](#languages)
+  - [Libraries and Frameworks:](#libraries-and-frameworks)
+  - [Tools](#tools)
+- [Project Purpose:](#project-purpose)
+- [Business Case:](#business-case)
+- [Design principles/features:](#design-principlesfeatures)
+- [User Stories:](#user-stories)
+- [Future Features:](#future-features)
+- [Testing](#testing)
+  - [Validation](#validation)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JS](#js)
+- [References:](#references)
+  - [Project Inspired by:](#project-inspired-by)
+  - [Images by:](#images-by)
+
+# Deployment:
+
+https://92an.github.io/second-milesonte-project/
+
+# Technologies Used:
+
+## Languages:
+* HTML5
+* CSS3 
+* Javascript
+
+## Libraries and Frameworks:
+* Bootstrap
+* Jquery
+* Font Awesome
+
+## Tools
+* Visual Studio code
+* Git
+* Github
 
 # Project Purpose:
 
@@ -6,8 +45,7 @@ A math game aimed at 2nd to 3rd graders, which is an age group of 6 – 9 years 
 
 # Business Case:
 
-Since looking at numbers from 2019 roughly 600 000 people are between the ages 5 -9 in Sweden; putting the squarely in the market demographic and are potential users of the app. 
-Teaching is in addition an underappreciated profession. This app seeks to alleviate some of the burden on teachers by providing a dynamic set of practice question to work with. This creates space for teachers to focus on the how to solve a question rather than provide materials to practice on. Providing this app at a cheap price would make it lucrative, since integrating technology and education is an underutilized market.  
+Since looking at numbers from 2019 roughly 600 000 people are between the ages 5 -9 in Sweden; putting the squarely in the market demographic and are potential users of the app. Teaching is in addition an underappreciated profession. This app seeks to alleviate some of the burden on teachers by providing a dynamic set of practice question to work with. This creates space for teachers to focus on the how to solve a question rather than provide materials to practice on. Providing this app at a cheap price would make it lucrative, since integrating technology and education is an underutilized market.
 
 # Design principles/features:
 
@@ -28,18 +66,42 @@ Teaching is in addition an underappreciated profession. This app seeks to allevi
 * Instantaneous feedback if right or wrong and return back to menu when all 10 questions are answered.
 
 # User Stories:
-As a teacher I would want it to generate appropriate problems for my math class to ease my workload. 
-As a parent I want the application to be safe and child friendly.
-As a user the game should provide feedback as to know if the answer submitted is right or wrong.
-As a user I would want to easily access the different game modes from the menu to focus on a specific area of math.
-Future Features:
-Scalable difficulty: 
+
+* As a teacher I would want it to generate appropriate problems for my math class to ease my workload.
+
+* As a parent I want the application to be safe and child friendly.
+
+* As a user the game should provide feedback as to know if the answer submitted is right or wrong.
+
+* As a user I would want to easily access the different game modes from the menu to focus on a specific area of math.
+
+# Future Features:
+
+* Scalable difficulty
+
+* Additional game modes such as:
+	* Subtraction allowing negative numbers.
+	* Subtraction with negative numbers.
+	* Addition with 3 numbers.
+	* Measurement conversion.
+	* Checking prime numbers.
 
 
+# Testing
 
+## Validation
 
+### HTML
+### CSS
+### JS
 
-images by:
+# References:
+
+## Project Inspired by:
+
+https://www.youtube.com/watch?v=q2Gg4-4wwlo&t=1052s
+
+## Images by:
 
 Image by <a href="https://pixabay.com/users/_Alicja_-5975425/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4014181">_Alicja_</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4014181">Pixabay</a>
 
