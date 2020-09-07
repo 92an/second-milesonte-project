@@ -108,8 +108,10 @@ Validated with https://validator.w3.org/
 * [x] subtraction.html
 * [x] multiplication.html
 #### CSS
+Validated with https://jigsaw.w3.org/css-validator/
 * [x] style.css
 #### JS
+Validated with https://jshint.com/
 * [x] game.js
 
 ## Manual testing
