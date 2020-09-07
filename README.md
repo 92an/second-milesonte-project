@@ -15,6 +15,13 @@
       - [CSS](#css)
       - [JS](#js)
   - [Manual testing](#manual-testing)
+    - [<ins>Layout Responsive Design:</ins>](#inslayout-responsive-designins)
+      - [Menu Page:](#menu-page)
+      - [Game Pages:](#game-pages)
+    - [<ins>Layout Device Formats:</ins>](#inslayout-device-formatsins)
+      - [Menu Page:](#menu-page-1)
+      - [Game page:](#game-page)
+    - [JS functions](#js-functions)
   - [Bugs](#bugs)
 - [References:](#references)
   - [Project Inspired by:](#project-inspired-by)
@@ -40,6 +47,7 @@ https://92an.github.io/second-milesonte-project/
 * Visual Studio code
 * Git
 * Github
+* Chrome Dev Tools
 
 # Project Purpose:
 
@@ -95,19 +103,194 @@ Since looking at numbers from 2019 roughly 600 000 people are between the ages 5
 
 #### HTML
 Validated with https://validator.w3.org/
-* [ ] index.html
-* [ ] addition.html
-* [ ] subtraction.html
-* [ ] multiplication.html
+* [x] index.html
+* [x] addition.html
+* [x] subtraction.html
+* [x] multiplication.html
 #### CSS
 * [x] style.css
 #### JS
 * [x] game.js
 
 ## Manual testing
+Tested using Chrome web browser and Chrome Dev tools.
 
+Note*
+
+At a glance it seems to work on Edge and Internet Explorer; but no robust test has been conducted.
+
+### <ins>Layout Responsive Design:</ins>
+Tested Responsive Design:
+
+* Mobile S 320px
+* Mobile M 375px
+* Mobile L 425px
+* Tablet 768px
+* Laptop 1024px
+* Laptop L 1440px
+
+#### Menu Page:
+
+|Design Test|Mobile S|Mobile M|Mobile L|
+|-----------|:--------:|:--------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+|Design Test|Tablet|Laptop|Laptop L|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+#### Game Pages:
+
+|Design Test|Mobile S|Mobile M|Mobile L|
+|-----------|:--------:|:--------:|:--------:|
+| Centered level heading | ok | ok | ok |
+| Centered progressbar that starts at 1 | ok | ok | ok |
+| Number boxes with numbers in them | ok | ok | ok |
+| Centered operation icon between number boxes | ok | ok | ok |
+| Centered input box below the question | ok | ok | ok |
+| Centered submit button below the input box | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+|Design Test|Tablet|Laptop|Laptop L|
+|-----------|:------:|:------:|:--------:|
+| Centered level heading | ok | ok | ok |
+| Centered progressbar that starts at 1 | ok | ok | ok |
+| Number boxes with numbers in them | ok | ok | ok |
+| Centered operation icon between number boxes | ok | ok | ok |
+| Centered input box below the question | ok | ok | ok |
+| Centered submit button below the input box | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+### <ins>Layout Device Formats:</ins>
+Tested device formats:
+
+* Moto G4
+* Galaxy S5
+* Pixel 2
+* Pixel 2 XL
+* iPhone 5/SE
+* iPhone 6/7/8
+* iPhone 6/7/8 Plus
+* iPhone X
+* iPad
+* iPad Pro
+* Surface Duo
+* Galaxy Fold
+
+#### Menu Page:
+
+|Design Test|Moto G4|Galaxy S5|Pixel 2|
+|-----------|:--------:|:--------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+|Design Test|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | Excessive blank space above | ok | ok |
+
+<p>&nbsp;</p>
+
+|Design Test|iPhone 6/7/8 Plus|iPhone X|iPad|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | Excessive blank space above | Significant excessive blank space above |
+
+<p>&nbsp;</p>
+
+|Design Test|iPad Pro|Surface Duo|Galaxy Fold|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | Significant excessive blank space above | ok | ok |
+
+#### Game page:
+
+|Design Test|Moto G4|Galaxy S5|Pixel 2|
+|-----------|:--------:|:--------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+|Design Test|Pixel 2 XL|iPhone 5/SE|iPhone 6/7/8|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | ok | ok |
+
+<p>&nbsp;</p>
+
+|Design Test|iPhone 6/7/8 Plus|iPhone X|iPad|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | ok | ok | Significant excessive blank space above |
+
+<p>&nbsp;</p>
+
+|Design Test|iPad Pro|Surface Duo|Galaxy Fold|
+|-----------|:------:|:------:|:--------:|
+|Image does not become fuzzy | ok | ok | ok |
+|Image and title takes up first section of the page and weave into each other|ok|ok|ok|
+| Menu buttons are clearly delineated and centered | ok | ok | ok |
+| Menu button links work | ok | ok | ok |
+| Footer sits at the bottom | Significant excessive blank space above | ok | ok |
+
+### JS functions
+
+|Functionality Test|Result|
+|-----------|:------:|
+| On load; game initializes with correct random numbers | ok |
+| Addition generates number that sum to no more than 100 | ok |
+| Subtraction generates numbers with a positive difference | ok |
+| Multiplication generates numbers between 0 and 10 | ok |
+| Division generates numbers that are divisible | ok |
+| Block enter key on the input box from submitting form and resetting the game | ok |
+| Connects the enter key on the input box to the onclick function on the submit button so that you can submit answers using enter | ok |
+| Progressbar function moves the active element to the next item in the list | ok |
+| Provides correct feedback when submitting answer | ok |
+| When submitting right answer moves progress bar | ok |
+| When submitting right answer generates new numbers | ok |
+| When submitting right answer clears input box | ok |
+| When submitting right answer to the 10th question; send congratulations message to the player and take the player to the main menu | ok |
 
 ## Bugs
+Clicking refresh button restarts the game; something that can happen by accident. 
 
 # References:
 
