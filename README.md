@@ -11,9 +11,11 @@
 - [Future Features:](#future-features)
 - [Testing](#testing)
   - [Validation](#validation)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [JS](#js)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JS](#js)
+  - [Manual testing](#manual-testing)
+  - [Bugs](#bugs)
 - [References:](#references)
   - [Project Inspired by:](#project-inspired-by)
   - [Images by:](#images-by)
@@ -91,9 +93,21 @@ Since looking at numbers from 2019 roughly 600 000 people are between the ages 5
 
 ## Validation
 
-### HTML
-### CSS
-### JS
+#### HTML
+Validated with https://validator.w3.org/
+* [ ] index.html
+* [ ] addition.html
+* [ ] subtraction.html
+* [ ] multiplication.html
+#### CSS
+* [x] style.css
+#### JS
+* [x] game.js
+
+## Manual testing
+
+
+## Bugs
 
 # References:
 
