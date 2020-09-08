@@ -33,9 +33,17 @@ p, h1, h2 {
     color: #fafafa;
 }
 
+.addition:hover {
+    filter: brightness(70%);
+}
+
 .subtraction {
     background-color: blue;
     color: #fafafa;
+}
+
+.subtraction:hover {
+    filter: brightness(70%);
 }
 
 .multiplication {
@@ -43,12 +51,18 @@ p, h1, h2 {
     color: #fafafa;
 }
 
+.multiplication:hover {
+    filter: brightness(70%);
+}
 
 .division {
     background-color: black;
     color: #fafafa;
 }
 
+.division:hover {
+    filter: brightness(70%);
+}
 
 /********************************************************* hero image and title section ********************************************************/
 
@@ -81,6 +95,20 @@ p, h1, h2 {
 
 #heroImage a {
     text-decoration: none;
+}
+
+.DescriptionText{
+    margin-top: 20px;
+}
+
+.content {
+    display: none;
+}
+
+#Instructions{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #menu {
