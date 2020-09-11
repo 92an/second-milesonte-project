@@ -14,7 +14,7 @@ function collapseIntro() {
     } else {
         introContent.style.display = "none";
     }
-};
+}
 
 // Stop enter key from refreshing page by submitting(code from stackoverflow)
 $('form').keypress(function(event) {
