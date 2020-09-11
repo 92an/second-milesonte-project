@@ -90,8 +90,8 @@ Since looking at numbers from 2019 roughly 600 000 people are between the ages 5
 * Scalable difficulty
 
 * Additional game modes such as:
-	* Subtraction allowing negative numbers.
-	* Subtraction with negative numbers.
+	* Subtraction allowing the answer to be negative.
+	* Allowing subtraction with negative numbers.
 	* Addition with 3 numbers.
 	* Measurement conversion.
 	* Checking prime numbers.
