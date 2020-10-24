@@ -22,13 +22,14 @@ $('form').keypress(function(event) {
 });
 
 // Makes the enter key click the button(w3schools)
-answerInput.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
-        event.preventDefault();
-        checkButton.click();
-    }
-});
-
+if(answerInput != null){
+    answerInput.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            checkButton.click();
+        }
+    });
+};
 // Return to main menu
 function mainMenu() {
     location.href="index.html";
