@@ -148,7 +148,7 @@ Test for all 4 game modes*/
 
 function testAnswer(gameMode) {
     if(Number(answerInput.value) === answer){
-        alert("Correct Answer!");
+        alert("Good Job!!! Correct Answer!");
         progessBarMovement();
         loadGameNumbers(gameMode)
         answerInput.value = "";
