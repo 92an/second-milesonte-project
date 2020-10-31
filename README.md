@@ -29,7 +29,17 @@
 
 # Deployment:
 
+## github pages:
+
 https://92an.github.io/second-milesonte-project/
+
+### steps:
+1. Go to your repository in github
+2. Go to the setting
+3. Scroll down to github pages
+4. Select branch you want to deploy (Master in my case)
+5. Select the folder (/root) to deploy
+6. Save changes, and there is a link to the deployed website.
 
 # Technologies Used:
 
