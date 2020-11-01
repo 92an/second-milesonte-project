@@ -43,7 +43,7 @@ https://92an.github.io/second-milesonte-project/
 
 See documentation for publishing to Github Pages [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-## deploy repository locally by cloning directory:
+## Deploy repository locally by cloning repository:
 1. Go to the github repository.
 2. Click on code.
 3. Copy the url to the repository https://github.com/92an/second-milesonte-project.git.
