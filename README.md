@@ -29,17 +29,31 @@
 
 # Deployment:
 
-## github pages:
+## Github Pages:
 
 https://92an.github.io/second-milesonte-project/
 
 ### steps:
-1. Go to your repository in github
-2. Go to the setting
-3. Scroll down to github pages
-4. Select branch you want to deploy (Master in my case)
-5. Select the folder (/root) to deploy
-6. Save changes, and there is a link to the deployed website.
+1. Go to your repository in github.
+2. Go to the setting.
+3. Scroll down to Github Pages.
+4. Select branch you want to deploy (Master in my case).
+5. Select the folder (/root) to deploy.
+6. Save changes, and there is a link to the deployed website (see href above).
+
+See documentation for publishing to Github Pages [here](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+## deploy repository locally by cloning directory:
+1. Go to the github repository.
+2. Click on code.
+3. Copy the url to the repository https://github.com/92an/second-milesonte-project.git.
+4. Open up your local comand promt (Bash in my case).
+5. Make sure to change working directory to the one you want to clone the directory to.
+6. type the command git clone https://github.com/92an/second-milesonte-project.git
+7. Enter to run the command
+
+See documentation for cloning a github repository [ here ](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
 
 # Technologies Used:
 
